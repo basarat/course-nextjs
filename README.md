@@ -1,12 +1,12 @@
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCGD_0i6L48hucTiiyhb5QzQ?style=social)](https://www.youtube.com/channel/UCGD_0i6L48hucTiiyhb5QzQ)
 
-# React Course
+# NextJS Course
 
-Code for the [React Course on Boolean Art][course].
+Code for the [NextJS Course on Boolean Art][course].
 
-[![Course Image](https://www.booleanart.com/course-content/react/index.png)][course]
+[![Course Image](https://www.booleanart.com/course-content/nextjs/index.png)][course]
 
-[course]: https://www.booleanart.com/course/react
+[course]: https://www.booleanart.com/course/nextjs
 
 # Playing with the code
 
