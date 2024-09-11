@@ -1,0 +1,16 @@
+{
+  "name": "course-react",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React Course for BooleanArt",
+  "scripts": {
+  },
+  "workspaces": [
+    "lessons/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basarat/course-react.git"
+  },
+  "license": "CC-BY-4.0"
+}

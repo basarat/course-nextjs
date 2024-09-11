@@ -1,0 +1,8 @@
+/* Horizontal spaced no wrapping */
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 5px;
+}
