@@ -1,5 +1,5 @@
 {
-  "name": "why_rsc",
+  "name": "rendering_server",
   "version": "0.1.0",
   "private": true,
   "scripts": {
