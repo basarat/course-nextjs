@@ -1,0 +1,1 @@
+# BooleanArt NextJS Sample
