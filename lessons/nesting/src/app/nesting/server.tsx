@@ -5,7 +5,7 @@ export async function ServerComponent() {
   return (
     <>
       <div>Server Component</div>
-      <pre>{await fs.readFileSync("README.md", "utf-8")}</pre>
+      <pre>{await fs.promises.readFile("README.md", "utf-8")}</pre>
     </>
   );
 }
