@@ -1,7 +1,5 @@
 "use client";
 
-import { UnmarkedComponent } from "../ui/unmarked";
-import { ClientComponent } from "../ui/client";
 import { ServerComponent } from "../ui/server";
 
 export default function ClientPage() {
@@ -9,8 +7,7 @@ export default function ClientPage() {
   return (
     <>
       <h1>Client Page</h1>
-      <ClientComponent />
-      <UnmarkedComponent />
+      <ServerComponent />
     </>
   );
 }
