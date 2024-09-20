@@ -1,5 +1,5 @@
 'use client';
 
-import { ClientOnlyChild } from './ClientOnlyChild';
+import { ClientOnly } from './ClientOnly';
 
-export default ClientOnlyChild;
+export default ClientOnly;
