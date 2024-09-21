@@ -1,5 +1,21 @@
 import "./page.css";
 
+const commonStyle: React.CSSProperties = {
+  width: "500px",
+  height: "300px",
+  background: "black",
+  color: "white",
+
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  textAlign: "center",
+  gap: "10px",
+
+  fontSize: "50px",
+};
+
 export default function Home() {
   return (
     <div
@@ -10,32 +26,16 @@ export default function Home() {
         alignItems: "center",
       }}
     >
+      <div style={commonStyle}>⬅️ 500px ➡️</div>
       <div
         style={{
-          width: "500px",
-          background: "black",
-          color: "white",
-          textAlign: "center",
-          padding: "20px",
-          fontSize: "50px",
+          ...commonStyle,
+          border: "50px solid green",
+          padding: "50px",
         }}
       >
-        ⬅️ 500px ➡️
-      </div>
-      <div
-        style={{
-          width: "500px",
-          background: "black",
-          color: "white",
-          textAlign: "center",
-          fontSize: "25px",
-          border: "20px solid green",
-          padding: "20px",
-        }}
-      >
-        ⬅️ 500px ➡️
-        <br />
-        (with 20px border + 20px padding)
+        <span>⬅️ 500px ➡️</span>
+        <span style={{ fontSize: "25px" }}>(with border + padding)</span>
       </div>
     </div>
   );
