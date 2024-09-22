@@ -1,7 +1,17 @@
-import "./page.css";
+const Column = ({ children }: { children: React.ReactNode }) => (
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      gap: "10px",
+      alignItems: "center",
+    }}
+  >
+    {children}
+  </div>
+);
 
 const commonStyle: React.CSSProperties = {
-  width: "500px",
   height: "300px",
   background: "black",
   color: "white",
@@ -18,25 +28,25 @@ const commonStyle: React.CSSProperties = {
 
 export default function Home() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        gap: "10px",
-        alignItems: "center",
-      }}
-    >
-      <div style={commonStyle}>⬅️ 500px ➡️</div>
+    <Column>
       <div
         style={{
           ...commonStyle,
+          width: "500px",
+        }}
+      >
+        ⬅️ 500px ➡️
+      </div>
+      <div
+        style={{
+          ...commonStyle,
+          width: "500px",
           border: "50px solid green",
           padding: "50px",
         }}
       >
-        <span>⬅️ 500px ➡️</span>
-        <span style={{ fontSize: "25px" }}>(with border + padding)</span>
+        ⬅️ 500px ➡️
       </div>
-    </div>
+    </Column>
   );
 }
